@@ -59,25 +59,28 @@ and you will obtain a `json` file with the format:
     "length": 26776,
     "data": []
 }
+```
 
 where `data` will contain the waveform samples.
 Please look at `examples/json.js` for an example.
 
 # API Parameters
-# Waveform api
+In the following the api parameters.
+
+## Waveform api
 The `waveform` api is defined as
 `Waveform.prototype.waveform = function (params, inputPath, outputPath)`
 and it supports the following parameters:
+
 ```
 * bits - Number of bits resolution when creating a waveform data file (either 8 or 16), default: 16
 * -s <seconds>	--start <seconds>	Start time (seconds), default: 0
 * -e <seconds>	--end <seconds>	End time (seconds). Not valid if --zoom is also specified
 ```
 
-# Png api
+## Png api
 The `png` api is defined as follows
 `Waveform.prototype.png = function (params, inputPath, outputPath)`
-
 and it supports the following parameters:
 
 ```
