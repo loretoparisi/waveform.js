@@ -98,6 +98,9 @@ and it supports the following parameters:
 * -e <seconds>	--end <seconds>	End time (seconds). Not valid if --zoom is also specified
 ```
 
+# Supported platforms
+We provide a binary version of `audiowaveform` program for `linux` and `macOS` platforms.
+
 # Disclaimer
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
-For more info about BBC waveform please look at  https://github.com/bbc/audiowaveform
+For more info about BBC waveform please look at https://github.com/bbc/audiowaveform
